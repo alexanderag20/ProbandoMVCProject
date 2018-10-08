@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  pruebamvc_app:
+    image: ${DOCKER_REGISTRY}pruebamvcapp
+    build:
+      context: .\PruebaMVC_App
+      dockerfile: Dockerfile
